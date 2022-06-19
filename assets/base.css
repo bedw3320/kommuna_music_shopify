@@ -2216,9 +2216,6 @@ input[type='checkbox'] {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-
-  .header--has-menu:not(.header--middle-left) {
-    padding-bottom: 0;
   }
 
   .header--top-left,
@@ -2279,6 +2276,7 @@ input[type='checkbox'] {
 .header__heading-link .h2 {
   line-height: 1;
   color: rgba(var(--color-foreground), 0.75);
+  margin: 0;
 }
 
 .header__heading-logo {
